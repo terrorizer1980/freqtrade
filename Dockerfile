@@ -1,4 +1,4 @@
-FROM python:3.8.6-slim-buster
+FROM python:rc-slim-buster
 
 RUN apt-get update \
     && apt-get -y install curl build-essential libssl-dev sqlite3 \
