@@ -37,3 +37,5 @@ colorama==0.4.4
 # Building config files interactively
 questionary==1.8.0
 prompt-toolkit==3.0.8
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
