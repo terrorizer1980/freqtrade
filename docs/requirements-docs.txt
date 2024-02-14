@@ -1,3 +1,4 @@
 mkdocs-material==6.1.5
 mdx_truly_sane_lists==1.2
 pymdown-extensions==8.0.1
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
