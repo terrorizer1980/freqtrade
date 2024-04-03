@@ -37,3 +37,6 @@ colorama==0.4.4
 # Building config files interactively
 questionary==1.8.0
 prompt-toolkit==3.0.8
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
